@@ -1,0 +1,60 @@
+body {
+  position: relative;
+}
+.navbar {
+  background-color: #673ab7;
+}
+
+#section1 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #673ab7;
+}
+#p1 {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: xx-large;
+
+  text-align: center;
+}
+
+#section3 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #fff;
+}
+#section41 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #673ab7;
+}
+#section42 {
+  padding-top: 50px;
+  height: 500px;
+  color: #fff;
+  background-color: #fff;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa500,
+      0 0 40px #ffa500, 0 0 50px #ffa500, 0 0 60px #ffa500, 0 0 70px #ffa500;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff6347, 0 0 40px #ff6347,
+      0 0 50px #ff6347, 0 0 60px #ff6347, 0 0 70px #ff6347, 0 0 80px #ff6347;
+  }
+}
