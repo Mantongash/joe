@@ -2,14 +2,15 @@ body {
   position: relative;
 }
 .navbar {
-  background-color: #673ab7;
+  background-color: yellow;
+  color: gainsboro;
 }
 
 #section1 {
   padding-top: 50px;
   height: 500px;
   color: #fff;
-  background-color: #673ab7;
+  background-color: #ff6347;
 }
 #p1 {
   padding-top: 100px;
@@ -18,7 +19,32 @@ body {
 
   text-align: center;
 }
+#p2 {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+  text-align: center;
+}
+#p3 {
+  font-weight: bold;
 
+  color: #fff;
+  text-align: center;
+}
+#call,
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  color: tomato;
+}
+button {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: xx-large;
+
+  text-align: center;
+}
 #section3 {
   padding-top: 50px;
   height: 500px;
@@ -29,7 +55,7 @@ body {
   padding-top: 50px;
   height: 500px;
   color: #fff;
-  background-color: #673ab7;
+  background-color: #ff6347;
 }
 #section42 {
   padding-top: 50px;
@@ -77,4 +103,18 @@ body {
 .img {
   width: 366px;
   height: 300px;
+}
+footer {
+  height: 30px;
+  color: #fff;
+  background-color: black;
+}
+
+.icons {
+  height: 150px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  position: relative;
 }
