@@ -56,24 +56,53 @@
         welcome to pizz up your first food
       </p>
 
-      <img src="img/p1.gif" alt="" srcset="" />
-      <p id="p1">
-        call:0798734442
-      </p>
+      <img src="./img/p1.gif" alt="" srcset="" />
     </div>
 
     <div id="section3" class="container-fluid">
-      <h1>Section 3</h1>
-      <p>
-        Try to scroll this section and look at the navigation bar while
-        scrolling! Try to scroll this section and look at the navigation bar
-        while scrolling!
-      </p>
-      <p>
-        Try to scroll this section and look at the navigation bar while
-        scrolling! Try to scroll this section and look at the navigation bar
-        while scrolling!
-      </p>
+      <h1 class="text-warin">About</h1>
+
+      <div id="overlay" onclick="off()">
+        <div id="text">
+          <div class="col-lg-6">
+            <img
+              src="./img/p1.jpeg"
+              alt=""
+              srcset=""
+              class="img"
+              style="width: 366;"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="./img/p2.jpeg"
+              alt=""
+              srcset=""
+              class="img"
+              style="width: 366;"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <br /><br />
+          <img
+            src="./img/p2.jpg"
+            alt=""
+            srcset=""
+            class="img"
+            style="width: 366px;"
+          />
+        </div>
+        <div class="col-xs-1-12">
+          <br /><br />
+          <img src="./img/p3.jpg" alt="" srcset="" class="img" />
+        </div>
+      </div>
+
+      <div style="padding:20px">
+        <h2>Overlay with Text</h2>
+        <button class="btn btn-primary" onclick="on()">Veiw</button>
+      </div>
     </div>
     <div id="section41" class="container-fluid">
       <h1>Section 4 Submenu 1</h1>
@@ -104,5 +133,14 @@
         &copy;
       </footer>
     </div>
+    <script>
+      function on() {
+        document.getElementById("overlay").style.display = "block";
+      }
+
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
   </body>
 </html>
